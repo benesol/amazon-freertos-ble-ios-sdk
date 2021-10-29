@@ -1,9 +1,13 @@
-# iOS SDK for FreeRTOS Bluetooth Devices
+# SOLIUS FORK of: iOS SDK for FreeRTOS Bluetooth Devices
 
 [![CocoaPods Version](https://img.shields.io/cocoapods/v/AmazonFreeRTOS.svg?style=flat)](https://cocoapods.org/pods/AmazonFreeRTOS)
 [![License](https://img.shields.io/cocoapods/l/AmazonFreeRTOS.svg?style=flat)](https://cocoapods.org/pods/AmazonFreeRTOS)
 [![Platform](https://img.shields.io/cocoapods/p/AmazonFreeRTOS.svg?style=flat)](https://cocoapods.org/pods/AmazonFreeRTOS)
 [![Build Status](https://travis-ci.org/aws/amazon-freertos-ble-ios-sdk.svg?branch=master)](https://travis-ci.org/aws/amazon-freertos-ble-ios-sdk)
+
+## SOLIUS Usage
+SOLIUS will use this code as a starting point for implementing a SOLIUS Cloud -> MySOLIUS Device communication link.
+MQTT traffic will be proxied through the SOLIUS Mobile App and then onto the MySOLIUS Device via Bluetooth Low Energy (BLE).
 
 ## Introduction
 

@@ -15,7 +15,7 @@ class DevicesViewController: UITableViewController {
         navigationController?.delegate = self
         extendedLayoutIncludesOpaqueBars = true
 
-        // Add observe for AmazonFreeRTOSManager NSNotifications
+        // Add observer for AmazonFreeRTOSManager NSNotifications
         NotificationCenter.default.addObserver(self, selector: #selector(centralManagerDidUpdateState), name: .afrCentralManagerDidUpdateState, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(centralManagerDidDisconnectDevice), name: .afrCentralManagerDidDisconnectDevice, object: nil)
         NotificationCenter.default.addObserver(self, selector: #selector(reloadDataWithoutAnimation), name: .afrCentralManagerDidDiscoverDevice, object: nil)

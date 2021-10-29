@@ -2,61 +2,69 @@ name: Alertift, nameSpecified:
 body: MIT License
 
 Copyrig…
-version: 4.1.1
+version: 4.2.0
 
 name: AmazonFreeRTOS, nameSpecified: 
 body: 
                    …
-version: 1.1.0
+version: 1.2.0
 
 name: AWSAuthCore, nameSpecified: 
 body: The AWS Mobile SDK f…
-version: 2.12.7
+version: 2.17.0
 
 name: AWSAuthUI, nameSpecified: 
 body: The AWS Mobile SDK f…
-version: 2.12.7
+version: 2.17.0
 
 name: AWSCognitoIdentityProvider, nameSpecified: 
 body: The AWS Mobile SDK f…
-version: 2.12.7
+version: 2.17.0
 
 name: AWSCognitoIdentityProviderASF, nameSpecified: 
 body: The AWS Mobile SDK f…
-version: 1.0.1
+version: 2.17.0
 
 name: AWSCore, nameSpecified: 
 body: The AWS Mobile SDK f…
-version: 2.12.7
+version: 2.17.0
 
 name: AWSIoT, nameSpecified: 
 body: The AWS Mobile SDK f…
-version: 2.12.7
+version: 2.17.0
 
 name: AWSMobileClient, nameSpecified: 
 body: The AWS Mobile SDK f…
-version: 2.12.7
+version: 2.17.0
 
 name: AWSUserPoolsSignIn, nameSpecified: 
 body: The AWS Mobile SDK f…
-version: 2.12.7
+version: 2.17.0
+
+name: CBORCoding, nameSpecified: 
+body: Copyright (c) 2021 J…
+version: 1.3.1
+
+name: Half, nameSpecified: 
+body: Copyright (c) 2021 J…
+version: 1.2.1
 
 name: LicensePlist, nameSpecified: 
 body: MIT License
 
 Copyrig…
-version: 2.13.0
+version: 3.14.4
 
 name: SwiftFormat, nameSpecified: 
 body: MIT License
 
 Copyrig…
-version: 0.44.2
+version: 0.48.17
 
 name: SwiftLint, nameSpecified: 
 body: The MIT License (MIT…
-version: 0.39.1
+version: 0.45.0
 
 add-version-numbers: false
 
-LicensePlist Version: 2.13.0
+LicensePlist Version: 3.14.4

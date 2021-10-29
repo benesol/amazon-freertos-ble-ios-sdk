@@ -4,18 +4,13 @@ struct AmazonConstants {
 
     enum AWS {
 
-        #warning("if you do not plan to use the MQTT demo, you can remove these #error.")
+        static let region = AWSRegionType.USWest2
 
-        #error("Replace with your AWS Region. eg: AWSRegionType.USEast1")
+        static let iotPolicyName = "solius-iot-bleproxy-test"
 
-        static let region = AWSRegionType.USEast1
+        // #error("Also update FreeRTOSDemo/Support/awsconfiguration.json with your credentials.")
 
-        #error("Replace with your AWS IoT Policy Name. eg: MyIoTPolicy")
-
-        static let iotPolicyName = "MyIoTPolicy"
-
-        #error("Also update FreeRTOSDemo/Support/awsconfiguration.json with your credentials.")
-
-        static let mqttCustomTopic = "my/custom/topic"
+        // Not sure if this lives under '$aws/thing-name/solius/bleproxy' or not.  Hopefully.
+        static let mqttCustomTopic = "solius/bleproxy"
     }
 }

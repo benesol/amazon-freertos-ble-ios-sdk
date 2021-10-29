@@ -1,5 +1,9 @@
 # iOS SDK for Amazon FreeRTOS Bluetooth Devices: Demo Application
 
+## SOLIUS Usage
+Demo code is being modified to be run within a thread of SOLIUS Mobile App.
+The SOLIUS Mobile App will provide the MQTT Proxy thread User's Cognito Identity token to authenticate the connection with AWS IoT.
+
 ## Introduction
 
 This demo application demonstrates some of the features of the iOS SDK for Amazon FreeRTOS Bluetooth devices.

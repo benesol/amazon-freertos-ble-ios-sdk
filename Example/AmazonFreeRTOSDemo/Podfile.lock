@@ -1,0 +1,85 @@
+PODS:
+  - Alertift (4.2.0)
+  - AmazonFreeRTOS (1.2.0):
+    - AWSIoT
+    - CBORCoding
+  - AWSAuthCore (2.17.0):
+    - AWSCore (= 2.17.0)
+  - AWSAuthUI (2.17.0):
+    - AWSAuthCore (= 2.17.0)
+    - AWSCore (= 2.17.0)
+  - AWSCognitoIdentityProvider (2.17.0):
+    - AWSCognitoIdentityProviderASF (= 2.17.0)
+    - AWSCore (= 2.17.0)
+  - AWSCognitoIdentityProviderASF (2.17.0)
+  - AWSCore (2.17.0)
+  - AWSIoT (2.17.0):
+    - AWSCore (= 2.17.0)
+  - AWSMobileClient (2.17.0):
+    - AWSAuthCore (= 2.17.0)
+    - AWSCognitoIdentityProvider (= 2.17.0)
+    - AWSCognitoIdentityProviderASF (= 2.17.0)
+    - AWSCore (= 2.17.0)
+  - AWSUserPoolsSignIn (2.17.0):
+    - AWSAuthCore (= 2.17.0)
+    - AWSCognitoIdentityProvider (= 2.17.0)
+    - AWSCore (= 2.17.0)
+  - CBORCoding (1.3.1):
+    - Half (~> 1.2)
+  - Half (1.2.1)
+  - LicensePlist (3.14.4)
+  - SwiftFormat/CLI (0.48.17)
+  - SwiftLint (0.45.0)
+
+DEPENDENCIES:
+  - Alertift
+  - AmazonFreeRTOS (from `../../`)
+  - AWSAuthUI
+  - AWSCore
+  - AWSMobileClient (~> 2.17.0)
+  - AWSUserPoolsSignIn
+  - LicensePlist
+  - SwiftFormat/CLI
+  - SwiftLint
+
+SPEC REPOS:
+  trunk:
+    - Alertift
+    - AWSAuthCore
+    - AWSAuthUI
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSIoT
+    - AWSMobileClient
+    - AWSUserPoolsSignIn
+    - CBORCoding
+    - Half
+    - LicensePlist
+    - SwiftFormat
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  AmazonFreeRTOS:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  Alertift: 17b37be915cd28edeceabd438e4134d041ea825c
+  AmazonFreeRTOS: 946c416db1d434e978de7f11e2b2537366460215
+  AWSAuthCore: 35e63f55ee6fa31b848dfa8fcddbe0fccdba9a13
+  AWSAuthUI: 029e3ddef74b160cded0afd56b3832135b4479ee
+  AWSCognitoIdentityProvider: bbc75ab74931db6909ffd9b24e7f4e52ae210361
+  AWSCognitoIdentityProviderASF: 87ebf727c8429f93b4188b2ad13ad1f76ce3cefd
+  AWSCore: f20f7eb426d598ab753219e41ba524c0dc6f2b5c
+  AWSIoT: 4ae5e253a19e1b10d1beb82aaf6fc4d54c967793
+  AWSMobileClient: 45523613684950c049914eacbc9f19cdd9f4cc83
+  AWSUserPoolsSignIn: 707ae39b9f724372ee43cb16ff288acd37fefed8
+  CBORCoding: 32bb0835b85aa48a8cdd74f0a582cb1639f1aed1
+  Half: 3b12976a79eb4ec5ab41eab161c84c61bac56a57
+  LicensePlist: 7cf61d222446422aacd4e3526989e8394dd4bea0
+  SwiftFormat: 0a9044eb365d74d4a0a2cefa5fe44a4cbef382a7
+  SwiftLint: e5c7f1fba68eccfc51509d5b2ce1699f5502e0c7
+
+PODFILE CHECKSUM: 7da8642b3cf03fec0cb59efe95a94ac7ae72c2ee
+
+COCOAPODS: 1.11.2
